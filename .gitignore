@@ -1,2 +1,9 @@
 node_modules/
 Library/
+git rm -r --cached Library
+git commit -m "Elimina directorul Library din Git"
+git push origin master
+git add .gitignore
+git commit -m "Adaugă .gitignore"
+git push origin master
+

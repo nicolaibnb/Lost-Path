@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638361130014697370
-    m_Hash: 3373162639
+      ticks: 638362753798681181
+    m_Hash: 2229904900
   m_LockFileStatus:
     m_FilePath: D:/Lost-Path/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638361130716771782
-    m_Hash: 3251392838
+      ticks: 638362753798727469
+    m_Hash: 2823772115
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -448,6 +448,106 @@ m_ResolvedPackages:
     when editing a Timeline that is an instance of a prefab and a bound `Animator`
     is destroyed ([TB-222](https://issuetracker.unity3d.com/issues/timeline-missingreferenceexceptions-when-undoing-add-animator-from-timeline))\n-
     Removed warnings due to obsolete analytics API."}'
+  assetStore:
+    productId: 
+- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.6
+  source: 1
+  resolvedPath: D:\Lost-Path\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6
+  assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
+  name: com.unity.toolchain.win-x86_64-linux-x86_64
+  displayName: Toolchain Win Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Cross-compilation toolchain to build player target Linux x86_64 on
+    host Windows x86_64
+  errors: []
+  versions:
+    all:
+    - 0.1.4-preview
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 0.1.20-preview
+    - 0.1.21-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    compatible:
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.6
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  - name: com.unity.sysroot.linux-x86_64
+    version: 2.0.6
+  keywords:
+  - toolchain
+  - windows
+  - linux
+  - cross-compilation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638258057940000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.win-x86_64-linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf00578d8ff96f17f95a226bb361b69fe2860cc1
+    path: 
+  unityLifecycle:
+    version: 2.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"bump version number to publish"}'
   assetStore:
     productId: 
 - packageId: com.unity.ugui@2.0.0
@@ -2890,6 +2990,179 @@ m_ResolvedPackages:
     hash: 
     revision: 
   upmReserved: 
+  assetStore:
+    productId: 
+- packageId: com.unity.sysroot@2.0.7
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.7
+  source: 1
+  resolvedPath: D:\Lost-Path\Library\PackageCache\com.unity.sysroot@2.0.7
+  assetPath: Packages/com.unity.sysroot
+  name: com.unity.sysroot
+  displayName: Sysroot Base
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: This is the base sysroot package required by all sysroot and toolchain
+    packages
+  errors: []
+  versions:
+    all:
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 0.1.16-preview
+    - 0.1.17-preview
+    - 0.1.18-preview
+    - 0.1.19-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    compatible:
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    recommended: 2.0.7
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638258057320000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf00578d8ff96f17f95a226bb361b69fe2860cc1
+    path: 
+  unityLifecycle:
+    version: 2.0.5
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"bump version number to publish"}'
+  assetStore:
+    productId: 
+- packageId: com.unity.sysroot.linux-x86_64@2.0.6
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.6
+  source: 1
+  resolvedPath: D:\Lost-Path\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.6
+  assetPath: Packages/com.unity.sysroot.linux-x86_64
+  name: com.unity.sysroot.linux-x86_64
+  displayName: Sysroot Linux x64
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Sysroot used to build unity player for linux x86_64
+  errors: []
+  versions:
+    all:
+    - 0.1.6-preview
+    - 0.1.7-preview
+    - 0.1.8-preview
+    - 0.1.9-preview
+    - 0.1.10-preview
+    - 0.1.11-preview
+    - 0.1.12-preview
+    - 0.1.13-preview
+    - 0.1.14-preview
+    - 0.1.15-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    compatible:
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
+  dependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  resolvedDependencies:
+  - name: com.unity.sysroot
+    version: 2.0.7
+  keywords:
+  - unity
+  - linux
+  - sysroot
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638258057410000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: bf00578d8ff96f17f95a226bb361b69fe2860cc1
+    path: 
+  unityLifecycle:
+    version: 2.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"bump version number to publish"}'
   assetStore:
     productId: 
 - packageId: com.unity.ide.visualstudio@2.0.22
